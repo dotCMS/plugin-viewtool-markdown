@@ -1,18 +1,14 @@
-# XMLTool with Auth
+# Github Flavored Markdown plugin
 
 ## Description
-This tool reimplements the XMLTool included with dotCMS but adds the ability to use basic HTTP-AUTH and also to do a POST and pass a map of parameters as data
+This dotCMS osgi plugin provides a github flavored markdown (gfm) compatible markdown parser (for the most part).  It is built off of the txtmark project  https://github.com/rjeschke/txtmark by René Jeschke.  It provides a viewtool that can be used in dotCMS to parse text/content for gfm.
 
-## Usage
-```
-viewtool: $xmlauthtool
+###Usage
+$markdown.parse("**Parse** *this* ~~string~~") will result in
 
-#set($data = $contents.getEmptyMap())
-#set($dummy = $data.put("var1", "here is var 1"))
-#set($dummy = $data.put("var2", "var2"))
+**Parse** *this* ~~string~~
 
-#set($xml = $xmlauthtool.read("https://myxmlpost.com/postToMe.xml", "username", "password", $data))
+There are no dependices to install, all you need to do is upload the ./build/libs/plugin-viewtool-markdown-0.1.jar into your dynamic plugins screen and the viewtool should become active.
 
-```
-# plugin-viewtool-markdown
-# plugin-viewtool-markdown
+
+
