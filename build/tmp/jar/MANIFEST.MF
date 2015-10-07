@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bundle-Description: dotCMS - Markdown
+Bundle-SymbolicName: plugin-viewtool-markdown
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1444244490000
+Bundle-DocURL: http://www.dotcms.com
+Bundle-Vendor: dotcms
+Import-Package: com.dotcms.repackage.org.osgi.framework;version=0,com.
+ dotmarketing.osgi;version=0,com.dotmarketing.util;version=0,org.apach
+ e.velocity.tools.view;version=0,org.apache.velocity.tools.view.servle
+ t;version=0,org.apache.velocity.tools.view.tools;version=0
+DynamicImport-Package: *
+Tool: Bnd-2.1.0.20130426-122213
+Export-Package: com.dotcms.osgi.markdown;version="0.1";uses:="com.dotc
+ ms.repackage.org.osgi.framework,com.dotmarketing.osgi",com.dotcms.osg
+ i.markdown.viewtool;version="0.1";uses:="org.apache.velocity.tools.vi
+ ew.servlet,org.apache.velocity.tools.view.tools",com.github.rjeschke.
+ txtmark;version="0.1",com.github.rjeschke.txtmark.cmd;version="0.1"
+Bundle-Name: Markdown Viewtool
+Bundle-Version: 0.1
+Bundle-Activator: com.dotcms.osgi.markdown.Activator
+Created-By: 1.8.0_51 (Oracle Corporation)
+
