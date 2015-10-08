@@ -8,7 +8,7 @@ public class MarkdownToolInfo extends ServletToolInfo {
 	}
 
 	public String getScope() {
-		return "application";
+		return "request";
 	}
 
 	public String getClassname() {
