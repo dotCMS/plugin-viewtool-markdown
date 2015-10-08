@@ -3,6 +3,10 @@ Markdown allows you to write using an easy-to-read, easy-to-write plain text for
 
 ##Basic writing
 
+
+
+
+
 ###Paragraphs
 
 Paragraphs in Markdown are just one or more lines of consecutive text followed by one or more blank lines.
@@ -17,7 +21,7 @@ You can create a heading by adding one or more # symbols before your heading tex
 ```
 # The largest heading (an <h1> tag)
 ## The second largest heading (an <h2> tag)
-É
+...
 ###### The 6th largest heading (an <h6> tag)
 ```
 
@@ -31,22 +35,19 @@ In the words of Abraham Lincoln:
 ```
 ###Styling text
 
-You can make text bold or italic.
+You can make text bold, italic or strikethrough.
 ```
 *This text will be italic*
+_This text will be italic_
 **This text will be bold**
+~~This text will be Strikethrough~~
 ```
 
-Both bold and italic can use either a * or an _ around the text for styling. This allows you to combine both bold and italic if needed.
+Bold, strikethrough and italic can use either a * or an _ around the text for styling. This allows you to combine both bold and italic if needed.
 ```
-**Everyone _must_ attend the meeting at 5 o'clock today.**
+**Everyone _must_ attend the meeting at ~~5 o'clock~~ 6 o'clock today.**
 ```
 
-Strikethrough
-
-```
-~~Mistaken text.~~
-```
 
 ##Lists
 
@@ -117,7 +118,7 @@ See also
 ##Auto Linking
 http://example.com
 
-~~Mistaken text.~~
+
 
 ### Tables
 You can create tables by assembling a list of words and dividing them with hyphens - (for the first row), and then separating each column with a pipe
