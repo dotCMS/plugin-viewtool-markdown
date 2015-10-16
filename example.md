@@ -150,3 +150,10 @@ Finally, by including colons : within the header row, you can define text to be 
 | col 3 is      | some wordy text | $1600 |
 | col 2 is      | centered        |   $12 |
 | zebra stripes | are neat        |    $1 |
+
+##Images
+Here is how images are embedded
+
+![dotCMS logo](//dotcms.com/images/logo.png)
+
+
