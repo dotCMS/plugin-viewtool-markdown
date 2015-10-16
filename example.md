@@ -154,6 +154,6 @@ Finally, by including colons : within the header row, you can define text to be 
 ##Images
 Here is how images are embedded
 
-![dotCMS logo](//dotcms.com/images/logo.png)
+![dotCMS logo](http://dotcms.com/images/logo.png)
 
 
