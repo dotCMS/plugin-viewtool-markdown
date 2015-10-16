@@ -64,7 +64,6 @@ You can make an unordered list by preceding list items with either a * or a -.
 - Item
 - Item
 
-
 ###Ordered lists
 
 You can make an ordered list by preceding list items with a number.
