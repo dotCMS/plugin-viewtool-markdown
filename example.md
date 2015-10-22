@@ -95,7 +95,7 @@ Here's an idea: why don't we take `SuperiorProject` and turn it into `**Reasonab
 
 ### Multiple lines of Code
 
-You can use triple backticks <b>```</b> to format text as its own distinct block.
+You can use triple backticks <b>```</b> before and after text to format it as its own distinct block.
 
 Check out this neat program I wrote:
 
@@ -110,13 +110,13 @@ You can append a class="" element to your code block by typing the class you wou
 Check out this javascript program I wrote:
 
 ```javascript
-	var _self = (typeof window !== 'undefined')
-		? window   // if in browser
-		: (
-			(typeof WorkerGlobalScope !== 'undefined' && self instanceof WorkerGlobalScope)
-			? self // if in worker
-			: {}   // if in node js
-		);
+var _self = (typeof window !== 'undefined')
+	? window   // if in browser
+	: (
+		(typeof WorkerGlobalScope !== 'undefined' && self instanceof WorkerGlobalScope)
+		? self // if in worker
+		: {}   // if in node js
+	);
 
 ```
 
