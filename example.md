@@ -85,17 +85,17 @@ You can create nested lists by indenting list items by two spaces.
     * You might want to consider making a new list.
 3. Item 3
 
-##Code formatting
+## Code formatting
 
-###Inline formats
+### Inline formats
 
 Use single backticks (`) to format text in a special monospace format. Everything within the backticks appear as-is, with no other special formatting.
 
 Here's an idea: why don't we take `SuperiorProject` and turn it into `**Reasonable**Project`.
 
-###Multiple lines
+### Multiple lines of Code
 
-You can use triple backticks ` ` ` (without the spaces inbetween)  to format text as its own distinct block.
+You can use triple backticks <b>```</b> to format text as its own distinct block.
 
 Check out this neat program I wrote:
 
@@ -104,6 +104,23 @@ x = 0
 x = 2 + 2
 what is x
 ```
+
+You can append a class="" element to your code block by typing the class you would like to append after the triple ticks, e.g.
+
+Check out this javascript program I wrote:
+
+```javascript
+	var _self = (typeof window !== 'undefined')
+		? window   // if in browser
+		: (
+			(typeof WorkerGlobalScope !== 'undefined' && self instanceof WorkerGlobalScope)
+			? self // if in worker
+			: {}   // if in node js
+		);
+
+```
+
+
 
 ###Links
 
