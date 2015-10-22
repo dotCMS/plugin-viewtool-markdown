@@ -99,7 +99,8 @@ public interface Decorator
      *            The StringBuilder to write to.
      */
     public void openCodeBlock(final StringBuilder out);
-
+    
+    public void openCodeBlock(final StringBuilder out, String meta);
     /**
      * Called when a code block is closed.
      *

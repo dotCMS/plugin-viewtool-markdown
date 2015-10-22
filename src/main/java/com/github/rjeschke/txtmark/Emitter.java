@@ -90,7 +90,12 @@ class Emitter
         case FENCED_CODE:
             if (this.config.codeBlockEmitter == null)
             {
-                this.config.decorator.openCodeBlock(out);
+            	if(root.meta == null || root.meta.isEmpty()){
+            		this.config.decorator.openCodeBlock(out);
+            	}
+            	else{
+            		this.config.decorator.openCodeBlock(out, root.meta);
+            	}
             }
             break;
         case BLOCKQUOTE:
